@@ -1,0 +1,748 @@
+.logo {
+  width: 50px;
+  margin-right: 5px;
+}
+.menu,
+.about-us,
+.contactmenu,
+.service,
+.home {
+  display: inline-block;
+  color: rgba(17, 45, 82, 255);
+  margin-right: 20px;
+}
+
+.about-us:hover,
+.contactmenu:hover,
+.service:hover,
+.home:hover {
+  cursor: pointer;
+  color: rgba(17, 45, 82, 0.664);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: rgb(69, 64, 64);
+  line-height: 1.5;
+  background-color: rgba(221, 232, 238, 255);
+}
+.header-title {
+  margin-top: 60px;
+  background-size: cover;
+  height: 500px;
+}
+.header {
+  height: 900px;
+}
+.highlight {
+  color: rgba(17, 45, 82, 255);
+}
+
+.header-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 7vw;
+  color: rgb(69, 64, 64);
+}
+h4 {
+  font-size: 2vw;
+  text-align: center;
+  justify-content: space-between;
+}
+h3 {
+  color: rgba(17, 45, 82, 255);
+}
+.header-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 100%;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+p {
+  text-align: justify;
+}
+.princ {
+  display: inline-block;
+  margin-bottom: 0px;
+  justify-content: space-evenly;
+}
+.orive {
+  width: 800px;
+  height: 600px;
+  max-width: 100%;
+}
+.motto {
+  text-align: center;
+  font-weight: bold;
+}
+.governing-body {
+  text-align: center;
+}
+
+.khetso,
+.toma {
+  width: 300;
+  height: 400px;
+  max-width: 100%;
+}
+
+.lawyers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.divkhetso {
+  margin-right: 50px;
+}
+.divkhetso,
+.divtoma {
+  display: inline-block;
+}
+.khetso-name,
+.toma-name {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+h1 {
+  color: rgba(17, 45, 82, 255);
+}
+.partner {
+  color: rgba(17, 45, 82, 255);
+  font-style: bold;
+}
+header {
+  height: 1000px;
+}
+
+.civ,
+.adm {
+  background-color: rgba(221, 232, 238, 255);
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.civ:hover,
+.adm:hover {
+  background-color: rgba(17, 45, 82, 0.599);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.buttons {
+  margin-bottom: 20px;
+}
+.civilandadmin {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.civ:active,
+.adm:active {
+  margin-bottom: 22px;
+}
+
+.civadp {
+  font-size: 1vw;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  text-align: justify;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.orive {
+  display: inline-block;
+  width: 100%;
+}
+.picandtextprinc {
+  /* display: flex; */
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+.civbutton {
+  background-color: rgba(17, 45, 82, 0.692);
+  border: none;
+  width: 125px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.civbutton:hover {
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.863);
+  transition-duration: 0.4s;
+}
+.quality {
+  background-color: rgba(17, 45, 82, 0.9);
+  color: aliceblue;
+}
+
+.proffesionalism {
+  background-color: rgba(17, 45, 82, 0.7);
+  color: aliceblue;
+}
+.self-sacrifice {
+  background-color: rgba(17, 45, 82, 0.6);
+  color: aliceblue;
+}
+.reliability {
+  background-color: rgba(17, 45, 82, 0.8);
+  color: aliceblue;
+}
+.speed {
+  background-color: rgba(17, 45, 82, 0.5);
+  color: aliceblue;
+}
+.experience {
+  background-color: rgba(17, 45, 82, 0.4);
+  color: aliceblue;
+}
+.line {
+  height: 5px;
+  background-color: rgba(17, 45, 82, 255);
+  margin-bottom: 40px;
+}
+.lineEND {
+  height: 5px;
+  background-color: rgba(17, 45, 82, 255);
+}
+.contactit {
+  margin-right: 20px;
+}
+.callus,
+.address,
+.email {
+  display: inline-block;
+  font-size: 1.1vw;
+  width: 250px;
+  text-align: center;
+  background-color: rgba(203, 220, 230, 255);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: rgba(17, 45, 82, 255);
+  font-weight: bold;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.principles {
+  margin-top: 0;
+}
+.pcentr {
+  text-align: center;
+  color: rgb(69, 64, 64);
+  font-weight: 100;
+}
+a {
+  color: rgba(17, 45, 82, 255);
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(17, 45, 82, 0.664);
+}
+a:active {
+  text-decoration: none;
+}
+a[href^="mailto:"] {
+  color: rgb(69, 64, 64);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(69, 64, 64, 0.723);
+}
+
+a:active {
+  text-decoration: none;
+}
+.map {
+  text-align: center;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  color: rgba(17, 45, 82, 255);
+}
+
+.btn-learnmore {
+  margin-top: 30px;
+  border: none;
+  background-color: rgba(221, 232, 238, 255);
+  cursor: pointer;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(69, 64, 64);
+  width: max-content;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.btn-learnmore:hover {
+  color: rgba(69, 64, 64, 0.616);
+}
+.alignBtn {
+  text-align: center;
+}
+
+.civil-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+ul#navMenu {
+  padding-right: 0px;
+  margin: 0px;
+  width: 380px;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ul#navMenu ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul#navMenu2 ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+}
+ul#navMenu li {
+  display: inline;
+  float: left;
+  position: relative;
+}
+ul#navMenu2 li {
+  display: inline;
+  float: left;
+  position: relative;
+}
+.navbar {
+  text-decoration: none;
+  padding: 10px 0px;
+  width: 100px;
+  background: rgba(221, 232, 238, 255);
+  color: rgba(17, 45, 82, 255);
+  float: left;
+  border: none;
+}
+
+.navbar:hover {
+  background: rgba(17, 45, 82, 0.692);
+  color: aliceblue;
+}
+ul#navMenu li:hover ul {
+  display: block;
+}
+ul#navMenu2 li:hover ul {
+  display: block;
+}
+ul#navMenu2 ul a {
+  width: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul#navMenu ul a {
+  width: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+ul#navMenu2 ul a {
+  width: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul#navMenu ul li {
+  display: block;
+  margin: 0px;
+}
+
+ul#navMenu2 ul li {
+  display: block;
+  margin: 0px;
+}
+.boxchild {
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 100%;
+  font-size: 1.1vw;
+  text-align: justify;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+.boxchild-title:hover {
+  cursor: pointer;
+  color: rgba(69, 64, 64, 0.634);
+  transition-duration: 0.4s;
+}
+.boxchild-title {
+  text-align: center;
+}
+.box {
+  margin-bottom: 100px;
+}
+.color-change {
+  background-color: rgba(17, 45, 82, 0.055);
+  transition: 0.4s;
+}
+
+ul#navMenu2 {
+  padding-right: 0px;
+  margin: 0px;
+  width: 265px;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.admtitle {
+  text-align: center;
+}
+
+.callus,
+.email,
+.address {
+  margin-right: 20px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(221, 232, 238, 255);
+  margin-bottom: 100px;
+}
+
+.ico {
+  margin-left: 10px;
+  align-self: top;
+  width: 20px;
+  height: 20px;
+}
+.boxchild-title {
+  align-items: start;
+}
+.ico2 {
+  margin-left: 10px;
+  align-self: top;
+  width: 20px;
+  height: 15px;
+}
+
+.setup {
+  display: block;
+}
+.textisgasworeba,
+.fotosgasworeba {
+  display: inline-block;
+}
+@keyframes animtitleup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+@keyframes animtitlebus {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+@keyframes animtitleyour {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+.up {
+  color: white;
+}
+
+.setup {
+  margin-left: 50px;
+}
+/* The element to apply the animation to */
+.setup {
+  animation-name: animtitleup;
+  animation-duration: 7s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+.your {
+  animation-name: animtitleyour;
+  animation-duration: 7s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+.setbus {
+  animation-name: animtitlebus;
+  animation-duration: 7s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.your {
+  margin-left: 30px;
+}
+.setbus {
+  margin-left: 35px;
+}
+.ertad {
+  text-align: center;
+  margin-top: 50px;
+}
+.textisgasworeba {
+  position: absolute;
+  top: 110px;
+  left: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    margin-right: 10px;
+  }
+  .about-us {
+    margin-right: 10px;
+  }
+  .navigation {
+    margin-bottom: 100px;
+  }
+  .contactmenu {
+    margin-right: 8px;
+  }
+  .service {
+    margin-right: 8px;
+    opacity: 0;
+  }
+  .logo {
+    margin-left: 10px;
+    margin-right: 60px;
+  }
+  .header {
+    height: 750px;
+  }
+  .line {
+    width: 370px;
+  }
+  .menu {
+    padding-left: 0;
+  }
+  .header-image {
+    margin-top: 150px;
+    height: 150px;
+    width: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 120px;
+  }
+  .textisgasworeba {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+  }
+
+  .ertad {
+    width: 390px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+  .setbus {
+    font-size: 60px;
+    margin-left: 25px;
+  }
+  .setup {
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  .textisgasworeba {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+  }
+  .your {
+    font-size: 60px;
+    margin-left: 40px;
+  }
+
+  .btn-learnmore {
+    font-size: 5vw;
+    margin-top: 150px;
+  }
+
+  .header-text {
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-right: 0;
+    text-align: start;
+  }
+  .highlight {
+    display: block;
+  }
+  .high {
+    display: block;
+  }
+  .setbus {
+    display: block;
+  }
+  .divkhetso {
+    display: block;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
+  .divtoma {
+    display: block;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
+  .lawyers {
+    display: block;
+  }
+  .civadp {
+    font-size: 4vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    text-align: justify;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .contactit {
+    width: 40px;
+    margin-left: 125px;
+    text-align: center;
+  }
+  .ico {
+    width: 0px;
+    height: 18px;
+  }
+  .callus {
+    font-size: 4vw;
+    width: 300px;
+    margin-left: 25px;
+  }
+  .email {
+    font-size: 4vw;
+    width: 300px;
+    margin-left: 25px;
+  }
+  .address {
+    font-size: 4vw;
+    width: 300px;
+    margin-left: 25px;
+  }
+  .contact {
+    display: grid;
+    align-items: center;
+  }
+  iframe {
+    width: 100%;
+  }
+  .boxchild-title {
+    font-size: 4vw;
+  }
+  .boxp {
+    font-size: 3vw;
+  }
+  .ico2 {
+    width: 10px;
+    height: 10px;
+  }
+  .admtitle {
+    font-size: 4vw;
+    text-align: justify;
+  }
+  .home2 {
+    margin-left: 80px;
+  }
+  .navbar2 {
+    font-size: 3vw;
+  }
+  .civ {
+    color: black;
+  }
+  .adm {
+    color: black;
+  }
+  .civbutton {
+    color: black;
+  }
+}
